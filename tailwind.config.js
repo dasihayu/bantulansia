@@ -10,10 +10,7 @@ module.exports = {
       colors: {
         primary: '#FFEE63',
         secondary: '#FEF08A',
-        dark: '#0f172a'
-      },
-      fontFamily: {
-        display: 'Poppins',
+        dark: '#0f172a',
       },
       screens: {
         '2xl': '1320px',
