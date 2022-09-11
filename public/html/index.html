@@ -5,19 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bantulansia</title>
-    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="h-[2000px]">
+
+    <!-- Header Section -->
+    <section>
+      <header class="bg-white fixed top-0 left-0 w-full flex items-center z-20 transition duration-500 delay-200">
+        <div class="container">
+          <div class="flex justify-between items-center relative">
+            <div class="px-4">
+              <a href="#home" class="text-xl font-bold text-primary block py-4 lg:text-3xl">Bantulansia</a>
+            </div>
+            <div class="flex items-center px-4">
+              <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger transition duration-300 ease-in-out"></span>
+                <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
+              </button>
+
+              <nav id="nav-menu" class="absolute hidden py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:max-w-full lg:static lg:bg-transparent lg:rounded-none lg:shadow-none">
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Beranda</a>
+                  </li>
+                  <li class="group">
+                    <a href="#menu" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Menu</a>
+                  </li>
+                  <li class="group">
+                    <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Kontak</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
     <!-- Hero Section -->
-    <section id="home" class="pt-36">
+    <section id="home" class="mt-24">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-bold md:text-xl lg:text-2xl">Membantu anda merawat lansia</h1>
-            <p class="font-medium text-black mb-10 leading-relaxed">
+            <h1 class="text-base font-bold md:text-xl lg:text-2xl text-primary">Membantu anda merawat lansia</h1>
+            <p class="font-medium text-dark mb-10 leading-relaxed">
               Konsultasi dengan perawat profesional, cari panti jompo <br />
               terdekat, berdonasi, informasi perawatan lansia <br />
-              semua bisa di <span class="text-black font-bold">bantulansia</span>
+              semua bisa di <span class="text-dark font-bold">bantulansia</span>
             </p>
 
             <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-secondary transition duration-300 ease-in-out">Cari Panti Jompo</a>
@@ -31,4 +68,5 @@
       </div>
     </section>
   </body>
+  <script src="../js/script.js"></script>
 </html>

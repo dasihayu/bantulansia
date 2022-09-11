@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: '#FFEE63',
         secondary: '#FEF08A',
+        dark: '#0f172a'
       },
       fontFamily: {
         display: 'Poppins',
