@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bantulansia</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/src/input.css" />
+  </head>
+  <body class="h-\[2000px\]">
+    <!-- Header Section -->
+    <section>
+      <header class="bg-white fixed top-0 left-0 w-full flex items-center z-20 transition duration-500 delay-200">
+        <div class="container">
+          <div class="flex justify-between items-center relative">
+            <div class="px-4">
+              <a href="#home" class="text-xl font-bold text-primary block py-4 lg:text-3xl">Bantulansia</a>
+            </div>
+            <div class="flex items-center px-4">
+              <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger transition duration-300 ease-in-out"></span>
+                <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
+              </button>
+
+              <nav id="nav-menu" class="absolute hidden py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:max-w-full lg:static lg:bg-transparent lg:rounded-none lg:shadow-none">
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a href="./index.html" id="nav" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Beranda</a>
+                  </li>
+                  <li class="group">
+                    <a href="#layanan" id="nav" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Menu</a>
+                  </li>
+                  <li class="group">
+                    <a href="#contact" id="nav" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transition duration-300 ease-in-out delay-100">Kontak</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="" class="pt-24">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-bold md:text-xl lg:text-2xl text-primary">Menngapa anda perlu konsultasi di Bantulansia?</h1>
+            <p class="font-medium text-dark mb-10 leading-relaxed">
+              di Bantu Lansia kami menyediakan layanan konsultasi beserta informasi informasi yang terkait tentang Lansia, dengan menggunakan layanan kami konsultasi menjadi lebih nyaman, mudah serta terpercaya
+            </p>
+
+            <a href="#konsultasi" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-secondary transition duration-300 ease-in-out">Konsultasi Sekarang</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 lg:mt-9 lg:right-0">
+              <img src="../pic/chat.svg" alt="" class="max-w-full mx-auto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation Section -->
+    <section id="konsultasi"></section>
+  </body>
+  <script src="../js/script.js"></script>
+</html>
