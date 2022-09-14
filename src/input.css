@@ -3,21 +3,34 @@
 @tailwind utilities;
 
 .hide-navbar {
-    @apply -translate-y-full
+  @apply -translate-y-full;
 }
 
 .hamburger {
-    @apply w-[30px] h-[2px] my-2 block bg-black;
+  @apply w-[30px] h-[2px] my-2 block bg-black;
 }
 
 .hamburger-active > span:nth-child(1) {
-    @apply rotate-45;
+  @apply rotate-45;
 }
 
 .hamburger-active > span:nth-child(2) {
-    @apply scale-0;
+  @apply scale-0;
 }
 
 .hamburger-active > span:nth-child(3) {
-    @apply -rotate-45;
+  @apply -rotate-45;
+}
+
+@layer components {
+  .card {
+    @apply bg-slate-100 text-slate-700
+        w-72 min-h-[10rem]
+        shadow-lg rounded-md overflow-hidden;
+  }
+}
+
+#map {
+  width: 900px;
+  height: 500px;
 }
